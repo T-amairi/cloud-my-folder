@@ -1,0 +1,32 @@
+{
+  "name": "cloud-my-folder",
+  "version": "1.0.0",
+  "description": "Transform a folder in a cloud storage.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T-amairi/cloud-my-folder.git"
+  },
+  "keywords": [
+    "cloud",
+    "file"
+  ],
+  "author": "T-amairi",
+  "license": "SEE LICENCE IN LICENCE",
+  "bugs": {
+    "url": "https://github.com/T-amairi/cloud-my-folder/issues"
+  },
+  "homepage": "https://github.com/T-amairi/cloud-my-folder#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-basic-auth": "^1.2.1",
+    "helmet": "^7.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
